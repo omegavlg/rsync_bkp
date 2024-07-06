@@ -14,7 +14,7 @@
 ```
 rsync -a --progress . /tmp/backup
 ```
-<img src = "img/001.png" width = 100%>
+<img src = "img/001.png" width = 50%>
 
 
 2. `Заполните здесь этапы выполнения, если требуется ....`
