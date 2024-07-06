@@ -22,7 +22,7 @@ rsync -a --progress --filter='- .*/' ~/ /tmp/backup
 ```
 <img src = "img/002.png" width = 50%>
 
-3. `Заполните здесь этапы выполнения, если требуется ....`
+3. `Дополняем команду, чтобы rsync подсчитывал хэш-суммы для всех файлов`
 
 ```
 rsync -a --progress --checksum --filter='- .*/' ~/ /tmp/backup
