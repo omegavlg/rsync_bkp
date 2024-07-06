@@ -16,12 +16,11 @@ rsync -a --progress ~/ /tmp/backup
 ```
 <img src = "img/001.png" width = 50%>
 
-
 2. `Исключаем из синхронизации все директории, начинающиеся с точки`
 ```
-rsync -a --progress --exclude='/.*' ~/ /tmp/backup
+rsync -a --progress --filter='- .*/' ~/ /tmp/backup
 ```
-
+<img src = "img/002.png" width = 50%>
 
 3. `Заполните здесь этапы выполнения, если требуется ....`
 4. `Заполните здесь этапы выполнения, если требуется ....`
